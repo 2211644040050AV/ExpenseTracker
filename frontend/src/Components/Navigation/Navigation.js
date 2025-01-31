@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import avatar from '../../img/avatar.png'
+import avatar from '../../img/group_avatar.png'
 import { signout } from '../../utils/Icons'
 import { menuItems } from '../../utils/menuItems'
 
@@ -11,7 +11,7 @@ function Navigation({active, setActive}) {
             <div className="user-con">
                 <img src={avatar} alt="" />
                 <div className="text">
-                    <h3>Ayush Vishwakarma</h3>
+                    <h3>#Team</h3>
                     <p>Your Financial Overview</p>
                 </div>
             </div>
@@ -47,7 +47,7 @@ const NavStyled = styled.nav`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 1rem;
     .user-con{
         height: 100px;
         display: flex;
